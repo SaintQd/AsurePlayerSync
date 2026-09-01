@@ -1,0 +1,13 @@
+Language: ru_ru
+Database:
+  Url: 'jdbc:mysql://127.0.0.1:3306/vinplayersync?allowPublicKeyRetrieval=true&autoReconnect=true&useSSL=false'
+  TablePrefix: vinplayersync
+  Username: root
+  Password: admin
+ServerConnector:
+  Enabled: true
+  ServerName: 'Vinerium'
+  Command: 'cmi server {1} %player_name%'
+Messages:
+  LogLoad: true
+  LogSave: true

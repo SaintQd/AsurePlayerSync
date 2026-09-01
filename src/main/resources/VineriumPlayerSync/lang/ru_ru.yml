@@ -1,0 +1,9 @@
+Lang:
+  not_enough_arguments: "<red>Недостаточно аргументов."
+  reload_message: "<green>Плагин перезагружен."
+  no_permission: "<red>Нет прав!"
+  command_remove_data_offline_player_not_found: '<red>Игрок <gold>{1}</gold> не найден.'
+  command_remove_data_success: '<green>Данные о синхронизации игрока <light_purple>{1}</light_purple> успешно удалены.'
+  command_force_sync_user_not_found: '<red>Пользователь CMI <gold>{1}</gold> не найден.'
+  command_force_sync_no_data: '<red>Данные синхронизации игрока <gold>{1}</gold> отсутствуют в базе данных.'
+  command_force_sync_success: '<green>Данные игрока <light_purple>{1}</light_purple> успешно синхронизированы. Записи в БД были удалены.'

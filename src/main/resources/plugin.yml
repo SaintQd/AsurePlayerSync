@@ -1,0 +1,12 @@
+name: VineriumPlayerSync
+version: 1.0
+author: SaintQd
+main: org.saintqd.vineriumplayersync.VineriumPlayerSync
+api-version: 1.21.11
+depend: [VineriumLib]
+softdepend:
+  - CMI
+permissions:
+  vineriumplayersync.admin:
+    description: Access to admin commands.
+    default: op

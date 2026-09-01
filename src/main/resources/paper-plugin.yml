@@ -1,0 +1,15 @@
+name: VineriumPlayerSync
+version: '1.0'
+author: SaintQd
+main: org.saintqd.vineriumplayersync.VineriumPlayerSync
+loader: org.saintqd.vineriumplayersync.VineriumPlayerSyncLoader
+api-version: 1.21.11
+description: VineriumPlayerSync plugin.
+dependencies:
+  server:
+    VineriumLib:
+      load: BEFORE
+      required: true
+    CMI:
+      load: BEFORE
+      required: false
